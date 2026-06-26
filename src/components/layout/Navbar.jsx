@@ -163,7 +163,13 @@ export default function Navbar() {
           <span className="grid h-9 w-9 place-items-center rounded-lg border border-blue-300 bg-[linear-gradient(135deg,rgba(255,255,255,.95),rgba(216,180,109,.44)),linear-gradient(45deg,transparent_34%,rgba(255,255,255,.88)_50%,transparent_66%)] text-lg font-black text-blue-700 shadow-lg shadow-blue-600/20">
             S
           </span>
-          <span className="text-lg font-black tracking-normal">SpectraMinds.ai</span>
+          <span className="text-lg font-black tracking-normal">
+            Spectra
+            <span className="bg-[linear-gradient(135deg,#9d6f38_0%,#f4dfae_42%,#b98232_72%,#7a5128_100%)] bg-clip-text text-transparent drop-shadow-[0_1px_0_rgba(255,255,255,0.55)]">
+              Minds
+            </span>
+            .ai
+          </span>
         </Link>
 
         <nav className="hidden justify-center gap-1 text-sm font-semibold text-slate-600 lg:flex">

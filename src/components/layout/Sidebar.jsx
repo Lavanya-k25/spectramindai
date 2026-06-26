@@ -52,7 +52,13 @@ export default function Sidebar() {
           S
         </span>
         <div>
-          <p className="text-xl font-black leading-tight">SpectraMinds.ai</p>
+          <p className="text-xl font-black leading-tight">
+            Spectra
+            <span className="bg-[linear-gradient(135deg,#9d6f38_0%,#f4dfae_42%,#b98232_72%,#7a5128_100%)] bg-clip-text text-transparent drop-shadow-[0_1px_0_rgba(255,255,255,0.55)]">
+              Minds
+            </span>
+            .ai
+          </p>
           <p className="text-xs font-medium text-slate-500">
             Trust operations
           </p>
